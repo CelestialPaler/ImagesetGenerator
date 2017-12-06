@@ -10,14 +10,14 @@ How it works: Basicly it walk through a root folder and get all the sub folder a
                 training method.
 
 What to do: First, you have to do some basic configuration
-                1. set the directory
-                        Using: .set_image_root_dir()
-                               .set_csv_root_dir()
-                2. set the booleans
-                        Using: .set_show_image()
-                               .set_reshape_image()
-                3. set the standard shape
-                        Using: .set_image_std()
+            1. set the directory
+                    Using: .set_image_root_dir()
+                           .set_csv_root_dir()
+            2. set the booleans
+                    Using: .set_show_image()
+                           .set_reshape_image()
+            3. set the standard shape
+                    Using: .set_image_std()
 
             Next, you can call the generate function to start building
                         Using: .generate()
