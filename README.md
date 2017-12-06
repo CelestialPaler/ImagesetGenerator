@@ -8,3 +8,7 @@ then save the matrix as a csv file, when loading a csv it tranlate the matrix ba
 with some dataset generator functions, it can devide the whole set into train set,
 validate set and test set.And it can create batches of train set for SGD or other
 training method.
+
+
+By Celestial Tech Co.   Copyright © 2015-2017
+For more check : www.tianshicangxie.com
