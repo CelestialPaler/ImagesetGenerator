@@ -1,5 +1,5 @@
 # ImagesetGenerator
-A image-data-set generator for artificial intelligence training purpose.
+**A image-data-set generator for artificial intelligence training purpose.**
 
 How it works: Basicly it walk through a root folder and get all the sub folder as a class name
 then it create a corresponding folder with the same class name to save csv files
