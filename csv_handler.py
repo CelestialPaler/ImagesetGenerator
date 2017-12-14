@@ -12,15 +12,12 @@ import csv
 
 
 # Save image to a csv file
-def __image_to_csv(self, image_dir):
+def image_to_csv(self, image_dir):
     data = self.__read_rgb_from_image(image_dir)
-    with open(self.__csv_dir_root + '/' + str(123) + '.csv', 'w', newline='') as csvfile:
+    with open(image_dir, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='\'', quoting=csv.QUOTE_MINIMAL)
         # Loop traverse all pixels
 
-
-def __data_to_csv(self, data):
+def data_to_csv(self, data):
     with open(self.__csv_dir_root + '/' + str(123) + '.csv', 'w', newline=''):
         pass
-
-

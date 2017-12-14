@@ -19,7 +19,6 @@ class DatasetGenerator:
     def __init__(self):
         pass
 
-
 class ImagesetGenerator(DatasetGenerator):
     # Boolean Variables
     # To show image or not while processing the imagefile
@@ -104,9 +103,8 @@ class ImagesetGenerator(DatasetGenerator):
     # REturn : None
     def generate(self):
         if self.__isconfig_valid() is True:
-
-            tool.__get_all_folder()
-            tool.__get_all_image()
+            tool.get_all_folder()
+            tool.get_all_image()
             print(self.__classes_names)
             try:
                 os.makedirs(self.__csv_dir_root)
@@ -145,11 +143,3 @@ if __name__ == '__main__':
     ImagesetGen.set_image_std(256, 256, 3)
 
     ImagesetGen.generate()
-
-
-
-
-
-
-
-
